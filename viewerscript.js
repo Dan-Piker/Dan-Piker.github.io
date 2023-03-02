@@ -3,7 +3,7 @@ import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.126.0/build/three.m
 import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.126.0/examples/jsm/controls/OrbitControls.js'
 import rhino3dm from 'https://cdn.jsdelivr.net/npm/rhino3dm@0.15.0-beta/rhino3dm.module.js'
 
-const file = 'hello_mesh.3dm'
+const file = 'test_mesh.3dm'
 
 // wait until the rhino3dm library is loaded, then load the 3dm file
 rhino3dm().then(async m => {
